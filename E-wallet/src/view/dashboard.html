@@ -73,8 +73,21 @@
     <!-- Les transactions seront injectées ici -->
   </tbody>
         </table>
-      </div>
+      
     </section>
+    </div>
+      </div>
+ <div id="paymentContainer" style="display: none; margin-top: 20px;" class="card">
+    <h3>Effectuer un Paiement</h3>
+    <div id="paymentArea">
+        Montant: <input type="number" id="prixInput" placeholder="0">
+        Password: <input type="password" id="passInput" placeholder="••••">
+        <button id="Confirm">Confirmer</button>
+    </div>
+    <div id="paymentStatus"></div>
+</div>
+</div>
+</div>
   </main>
   <script type="module" src="/src/Controller/dashboard.js"></script>
 </body>
